@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../OperatorOverloading/OperatorOverloading.vcxproj" />
+  <Project Path="../PureVirtualFunctions/PureVirtualFunctions.vcxproj" />
+  <Project Path="Implicit Conversion &amp; Explicit.vcxproj" />
+</Solution>

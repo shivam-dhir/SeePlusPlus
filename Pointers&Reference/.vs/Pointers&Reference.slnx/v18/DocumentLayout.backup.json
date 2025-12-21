@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Pointers\u0026Reference\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{297DF253-DDB1-4428-B457-8CB81D7137AB}|Pointers\u0026Reference.vcxproj|D:\\apps\\VisualStudio_Workspace\\C\u002B\u002BTests\\pointersVSreference.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Pointers\u0026Reference\\Pointers\u0026Reference.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pointers\u0026Reference.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pointersVSreference.cpp",
+              "DocumentMoniker": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002BTests\\pointersVSreference.cpp",
+              "RelativeDocumentMoniker": "..\\..\\C\u002B\u002BTests\\pointersVSreference.cpp",
+              "ToolTip": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002BTests\\pointersVSreference.cpp",
+              "RelativeToolTip": "..\\..\\C\u002B\u002BTests\\pointersVSreference.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-19T00:39:10.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pointers\u0026Reference.vcxproj.user",
+              "DocumentMoniker": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Pointers\u0026Reference\\Pointers\u0026Reference.vcxproj.user",
+              "RelativeDocumentMoniker": "Pointers\u0026Reference.vcxproj.user",
+              "ToolTip": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Pointers\u0026Reference\\Pointers\u0026Reference.vcxproj.user",
+              "RelativeToolTip": "Pointers\u0026Reference.vcxproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-12-19T00:38:57.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

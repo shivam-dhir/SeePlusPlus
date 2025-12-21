@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Arrays.vcxproj" Id="f11f3177-c113-488d-81b0-6b37e538d333" />
+</Solution>

@@ -1,0 +1,7 @@
+﻿  object_scope.cpp
+D:\apps\VisualStudio_Workspace\ObjectScope\object_scope.cpp(18,3): warning C4150: deletion of pointer to incomplete type 'Example'; no destructor called
+      D:\apps\VisualStudio_Workspace\ObjectScope\object_scope.cpp(8,7):
+      see declaration of 'Example'
+  
+D:\apps\VisualStudio_Workspace\ObjectScope\object_scope.cpp(42,1): warning C4172: returning address of local variable or temporary : array
+  ObjectScope.vcxproj -> D:\apps\VisualStudio_Workspace\ObjectScope\x64\Debug\ObjectScope.exe

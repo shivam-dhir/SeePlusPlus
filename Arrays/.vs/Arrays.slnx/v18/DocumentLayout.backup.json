@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Arrays\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F3177-C113-488D-81B0-6B37E538D333}|Arrays.vcxproj|D:\\apps\\VisualStudio_Workspace\\C\u002B\u002BTests\\arrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "arrays.cpp",
+              "DocumentMoniker": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002BTests\\arrays.cpp",
+              "RelativeDocumentMoniker": "..\\..\\C\u002B\u002BTests\\arrays.cpp",
+              "ToolTip": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002BTests\\arrays.cpp",
+              "RelativeToolTip": "..\\..\\C\u002B\u002BTests\\arrays.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-19T00:40:46.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
