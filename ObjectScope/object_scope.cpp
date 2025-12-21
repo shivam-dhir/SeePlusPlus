@@ -5,6 +5,8 @@
 
 #include <iostream>
 
+
+// forward declaration
 class Example;
 
 class ScopedPointer {
@@ -49,7 +51,7 @@ int main() {
 
 	{
 		// Default constructor called
-		//Example e;
+		Example e;
 		// e is only defined in this scope. when this scope/block ('{}') ends, instance 'e' will be destroyed 
 	}
 	// when instance e is created in the above scope, it calls the default constructor
@@ -58,7 +60,7 @@ int main() {
 	{
 		// declaring example instance on the heap
 		// this instance is not bound to this scope/block since has a permanent address on the heap
-		//Example* e_ptr = new Example();
+		Example* e_ptr = new Example();
 	}
 	// when the above scope ends, e_ptr will not be destroyed and the destructor will not be called 
 
