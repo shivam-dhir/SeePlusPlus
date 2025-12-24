@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CopyConstructor.vcxproj" />
+  <Project Path="CopyConstructor.vcxproj" Id="9485018d-032c-4ae0-9a72-d72e70e5462a" />
 </Solution>
