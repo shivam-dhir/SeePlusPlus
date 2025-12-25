@@ -1,0 +1,6 @@
+﻿  copy_constructor.cpp
+D:\apps\VisualStudio_Workspace\C++\CopyConstructor\copy_constructor.cpp(47,2): error C2535: 'String::String(const String &)': member function already defined or declared
+      D:\apps\VisualStudio_Workspace\C++\CopyConstructor\copy_constructor.cpp(25,2):
+      see declaration of 'String::String'
+  
+D:\apps\VisualStudio_Workspace\C++\CopyConstructor\copy_constructor.cpp(54,18): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
