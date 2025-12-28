@@ -1,0 +1,5 @@
+﻿  dynamic_arrays.cpp
+D:\apps\VisualStudio_Workspace\C++\Dynamic Arrays\dynamic_arrays.cpp(10,4): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\apps\VisualStudio_Workspace\C++\Dynamic Arrays\dynamic_arrays.cpp(10,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\apps\VisualStudio_Workspace\C++\Dynamic Arrays\dynamic_arrays.cpp(10,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Dynamic Arrays.vcxproj -> D:\apps\VisualStudio_Workspace\C++\Dynamic Arrays\x64\Debug\Dynamic Arrays.exe
