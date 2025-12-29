@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\C++Tests\arrays.cpp">
+    <ClCompile Include="arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
