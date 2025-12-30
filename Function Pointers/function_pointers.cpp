@@ -22,6 +22,8 @@ void changeValue(std::vector<int>& vec) {
 }
 
 // the printValue function is captured by the function pointer ptrFunc
+// and called inside the pointerFunction
+// void (*ptrFunc)(int, int) -> void is the return type, (*ptrFunc) is the function pointer name, (int, int) are the parameter types
 void pointerFunction(std::vector<int> vec, void (*ptrFunc)(int, int)) {
 	for(int i : vec){
 		ptrFunc(i, i); // call the function using the function
