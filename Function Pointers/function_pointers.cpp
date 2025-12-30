@@ -5,6 +5,11 @@ void printValue(int value1, int value2) {
 	std::cout << value1 << std::endl;
 }
 
+const int& addNum(int val1, int val2) {
+	const int sum = val1 + val2;
+	return sum;
+}
+
 // makes the values in the vector double their original value
 void changeValue(std::vector<int>& vec) {
 	// makes the values in the vector double their original value
@@ -24,6 +29,13 @@ void pointerFunction(std::vector<int> vec, void (*ptrFunc)(int, int)) {
 }
 
 int main() {
+
+	// function as a variable
+	auto function = printValue;
+	function(5, 5);
+
+	auto& sum = addNum(1,2);
+
 	std::vector<int> arr = { 1,2,3,4,5 };
 	//changeValue(arr);
 
