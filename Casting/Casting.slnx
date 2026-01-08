@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Casting.vcxproj" Id="df4394ec-10b1-4e49-80c1-73e1bd5b994e" />
+</Solution>
