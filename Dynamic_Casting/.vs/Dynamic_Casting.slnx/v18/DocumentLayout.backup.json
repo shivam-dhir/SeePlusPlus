@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Dynamic_Casting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6F983D-583B-42A4-8736-D8BA1606C195}|Dynamic_Casting.vcxproj|D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Dynamic_Casting\\dynamic_casting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D6F983D-583B-42A4-8736-D8BA1606C195}|Dynamic_Casting.vcxproj|solutionrelative:dynamic_casting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dynamic_casting.cpp",
+              "DocumentMoniker": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Dynamic_Casting\\dynamic_casting.cpp",
+              "RelativeDocumentMoniker": "dynamic_casting.cpp",
+              "ToolTip": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Dynamic_Casting\\dynamic_casting.cpp*",
+              "RelativeToolTip": "dynamic_casting.cpp*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-10T03:33:25.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
