@@ -3,8 +3,8 @@
 class String {
 private:
 	// unsigned integer of 32 bits. _t represents a typedef.
-	uint32_t m_Size;
-	char* m_Data;
+	uint32_t m_Size = 0;
+	char* m_Data = nullptr;
 
 public:
 	// using default forces compiler to build a default constructor
@@ -84,7 +84,22 @@ int main() {
 	// implicit construction
 	// First the string instance is created in this (main) scope, and is bound to String& name.
 	// Then a copy happens when the instance 'name' is copied to 'm_Name' 
-	Entity entity(String("hello"));
+	//Entity entity(String("hello"));
 	//entity.printName();
+
+	std::string str1 = "hello"; // 0x000000A8ADAFF5B8
+	// This creates a deep copy of str1, which is str2
+	std::string str2 = str1; // 0x000000A8ADAFF5F8
+
+	// This MOVES/STEALS the contents from str1 into str3
+	// move() converts the parameter (str1) into a temporray (r-value) and gives ownership to str3.
+	// str1 is then made to point to null, basically made useless
+	std::string str3 = std::move(str1);
+	std::cout << "str3: " << str3 << std::endl;
+	std::cout << "str1: " << str1 << std::endl;
+
+	// Since move() just converts the object into a temporary, we could just explicitly convert it into a r-value reference
+	// But this is not very safe, and could misbehave/have undefined behaviour with some types (eg: auto). std::move() is the best way to do this
+	std::string str4 = (std::string&&) str3;
 	
 }
