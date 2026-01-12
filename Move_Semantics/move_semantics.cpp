@@ -45,7 +45,7 @@ public:
 
 	~String() {
 		printf("destroyed\n");
-		delete m_Data; 
+		delete[] m_Data; 
 	}
 
 	void print() {
@@ -68,8 +68,11 @@ public:
 	Entity(const String& name) : m_Name(name) {}
 
 	// For move constructor to work, we need a Entity constructor which takes in a r-value String reference 
-	Entity(String&& name) : m_Name((String&&) name) {}
+	//Entity(String&& name) : m_Name((String&&) name) {}
 	// instead of casting to String&&, we usually do std::move(namme)
+
+	// Does the exact same thing as above, just instead using std::move()
+	Entity(const String&& name): m_Name(std::move(name)) {}
 
 	void printName() {
 		m_Name.print();

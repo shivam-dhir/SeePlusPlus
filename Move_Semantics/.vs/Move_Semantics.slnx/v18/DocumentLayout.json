@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Move_Semantics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2542A0-3116-4E12-B919-404CB5B1B42E}|Move_Semantics.vcxproj|D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Move_Semantics\\move_semantics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C2542A0-3116-4E12-B919-404CB5B1B42E}|Move_Semantics.vcxproj|solutionrelative:move_semantics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "move_semantics.cpp",
+              "DocumentMoniker": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Move_Semantics\\move_semantics.cpp",
+              "RelativeDocumentMoniker": "move_semantics.cpp",
+              "ToolTip": "D:\\apps\\VisualStudio_Workspace\\C\u002B\u002B\\Move_Semantics\\move_semantics.cpp",
+              "RelativeToolTip": "move_semantics.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-12T00:41:37.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
