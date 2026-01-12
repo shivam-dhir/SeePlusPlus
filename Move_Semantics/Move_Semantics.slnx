@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Move_Semantics.vcxproj" />
+  <Project Path="Move_Semantics.vcxproj" Id="6c2542a0-3116-4e12-b919-404cb5b1b42e" />
 </Solution>

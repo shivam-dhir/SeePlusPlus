@@ -1,0 +1,4 @@
+﻿  move_semantics.cpp
+D:\apps\VisualStudio_Workspace\C++\Move_Semantics\move_semantics.cpp(16,18): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+D:\apps\VisualStudio_Workspace\C++\Move_Semantics\move_semantics.cpp(52,21): warning C4018: '<': signed/unsigned mismatch
+  Move_Semantics.vcxproj -> D:\apps\VisualStudio_Workspace\C++\Move_Semantics\x64\Debug\Move_Semantics.exe
