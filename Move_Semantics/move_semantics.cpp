@@ -101,5 +101,4 @@ int main() {
 	// Since move() just converts the object into a temporary, we could just explicitly convert it into a r-value reference
 	// But this is not very safe, and could misbehave/have undefined behaviour with some types (eg: auto). std::move() is the best way to do this
 	std::string str4 = (std::string&&) str3;
-	
 }
