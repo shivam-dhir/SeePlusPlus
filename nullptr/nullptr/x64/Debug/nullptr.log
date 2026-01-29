@@ -1,0 +1,3 @@
+﻿  null.cpp
+D:\apps\VisualStudio_Workspace\C++\nullptr\null.cpp(35,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+  nullptr.vcxproj -> D:\apps\VisualStudio_Workspace\C++\nullptr\x64\Debug\nullptr.exe
