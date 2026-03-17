@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Vector Lite\\x64\\Debug\\vector.h.obj",
+            "outputs": [
+                "D:\\apps\\VisualStudio_Workspace\\C++\\Vector Lite\\Vector Lite\\x64\\Debug\\vc145.pdb",
+                "Vector Lite\\x64\\Debug\\",
+                "D:\\apps\\VisualStudio_Workspace\\C++\\Vector Lite\\Vector Lite\\x64\\Debug\\vector.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "vector.h",
+                    "source-path": "d:\\apps\\visualstudio_workspace\\c++\\vector lite\\vector.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

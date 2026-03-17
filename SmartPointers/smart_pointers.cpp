@@ -14,6 +14,39 @@
 #include <iostream>
 #include <memory>
 
+class Example;
+
+class Entity {
+private:
+	std::weak_ptr<Example> example;
+
+public:
+
+	void doSomething() {
+		// lock() is used, because in the meantime, the original shared pointer might have been destroyed by another thread or part of code
+		// lock() keeps the weak pointer valid only if the original shared pointer is still alive
+		if (std::shared_ptr<Example> example_ptr = example.lock()) { // lock() converts weak_ptr to shared_ptr
+			// use example_ptr
+		} else {
+			std::cout << "example_ptr is no longer valid." << std::endl;
+		}
+	}
+
+	void printCount() {
+		std::cout << "Reference Count: " << example.use_count() << std::endl;
+	}
+
+	void checkExpired() {
+		// expired() checks if the original shared pointer is still alive
+		if (example.expired()) {
+			std::cout << "The weak pointer has expired." << std::endl;
+		} else {
+			std::cout << "The weak pointer is still valid." << std::endl;
+		}
+
+
+};
+
 class Example {
 
 public:

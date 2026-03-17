@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Vector Lite\\x64\\Debug\\vector.obj",
+            "outputs": [
+                "Vector Lite\\x64\\Debug\\vector.h_8680C219A6982AF2.ifc.dt.module.json",
+                "Vector Lite\\x64\\Debug\\vector.h_8680C219A6982AF2.ifc.dt.d.json",
+                "Vector Lite\\x64\\Debug\\vector.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\apps\\VisualStudio_Workspace\\C++\\Vector Lite\\vector.h",
+                    "source-path": "d:\\apps\\visualstudio_workspace\\c++\\vector lite\\vector.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
