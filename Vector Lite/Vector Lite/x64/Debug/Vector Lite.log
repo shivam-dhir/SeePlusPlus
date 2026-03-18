@@ -1,17 +1,3 @@
 ﻿  Scanning sources for module dependencies...
-  vector.h
-  Compiling...
-  vector.h
   main.cpp
-D:\apps\VisualStudio_Workspace\C++\Vector Lite\vector.h(50,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'main.cpp')
-      D:\apps\VisualStudio_Workspace\C++\Vector Lite\vector.h(50,10):
-      the template instantiation context (the oldest one first) is
-          D:\apps\VisualStudio_Workspace\C++\Vector Lite\main.cpp(28,17):
-          see reference to class template instantiation 'Vector<Entity>' being compiled
-          D:\apps\VisualStudio_Workspace\C++\Vector Lite\vector.h(49,6):
-          while compiling class template member function 'int Vector<Entity>::size_of_vector(void) const'
-              D:\apps\VisualStudio_Workspace\C++\Vector Lite\main.cpp(30,41):
-              see the first reference to 'Vector<Entity>::size_of_vector' in 'main'
-  
   Vector Lite.vcxproj -> D:\apps\VisualStudio_Workspace\C++\Vector Lite\x64\Debug\Vector Lite.exe

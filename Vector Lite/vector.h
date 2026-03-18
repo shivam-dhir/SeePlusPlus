@@ -1,5 +1,6 @@
 #include <utility>
 #include <iostream>
+#include <new>
 
 template <typename T>
 class Vector {
@@ -10,18 +11,21 @@ private:
 
 public:
 
-	Vector() {
-		capacity = 1;
-		data = new T[capacity];
-	}
+    Vector() {
+        capacity = 1;
+        data = static_cast<T*>(operator new[](capacity * sizeof(T)));
+    }
 
-	Vector(int init_capacity) : capacity(init_capacity) {
-		data = new T[capacity];
-	}
+    Vector(int init_capacity) : capacity(init_capacity) {
+        data = static_cast<T*>(operator new[](capacity * sizeof(T)));
+    }
 
-	~Vector() {
-		delete[] data;
-	}
+    ~Vector() {
+        for (size_t i = 0; i < size; ++i) {
+            data[i].~T();
+        }
+        operator delete[](data);
+    }
 
 	T& operator[](int index) {
 		return data[index];
@@ -33,33 +37,52 @@ public:
 
 	void push_back(const T& value) {
 		// Implementation for adding an element to the end of the vector
-		data[size] = value;
-		size++;
-		resize();
+        if(size >= capacity)
+            grow();
+        new (data + size) T(value);
+        ++size;
 	}
 
 	void push_back(T&& value) {
 		// Implementation for adding an element to the end of the vector using move semantics
-		std::cout << "Move push_back called \n";
-		data[size] = std::move(value);
-		size++;
-		resize();
+        if (size >= capacity)
+            grow();
+        //std::cout << "Move push_back called \n";
+        new (data + size) T(std::move(value));
+        ++size;
 	}
 
-	int size_of_vector() const {
+    void reserve(size_t new_capacity) {
+        if (new_capacity <= capacity) return;
+
+        T* newData = static_cast<T*>(operator new[](new_capacity * sizeof(T)));
+
+        for (size_t i = 0; i < size; ++i) {
+            new (newData + i) T(std::move_if_noexcept(data[i]));
+            data[i].~T();
+        }
+
+        operator delete[](data);
+
+        data = newData;
+        capacity = new_capacity;
+    }
+
+	size_t current_size() const {
 		return size;
 	}
 
-	void resize() {
+	void grow() {
 		if (size >= capacity) {
-			std::cout << "Capacity Increase \n";
-			capacity = (capacity == 0) ? 1 : capacity * 2;
-			T* newData = new T[capacity];
-			for (int i = 0; i < size; i++) {
-				newData[i] = data[i];
-			}
-			delete[] data;
-			data = newData;
+			//std::cout << "Capacity Increase \n";
+            capacity = (capacity == 0) ? 1 : capacity * 2;
+            T* newData = static_cast<T*>(operator new[](capacity * sizeof(T)));
+            for (size_t i = 0; i < size; i++) {
+                new (newData + i) T(std::move(data[i]));
+                data[i].~T();
+            }
+            operator delete[](data);
+            data = newData;
 		}
 	}
 };
