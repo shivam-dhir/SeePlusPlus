@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="custom_allocator.cpp">
+    <ClCompile Include="sso.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Allocator.h">
+    <ClInclude Include="SmallString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Custom_Allocator.vcxproj" Id="6a40a144-7de3-4eff-9654-77ed87b9bba7" />
+  <Project Path="SmallStringOptimization.vcxproj" />
 </Solution>
